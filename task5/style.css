@@ -1,0 +1,77 @@
+body {
+    background-color:rgb(211, 242, 245);
+    text-decoration-color: blue;
+}
+
+label{
+    color: darkblue;
+    font-size: 20px;
+    display:block;
+    margin-bottom: 0.25rem;
+}
+
+.textField {
+    margin-bottom: 1rem;
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.but {
+    background-color: #8ec8ef;
+      border: 1px solid #CCCCCC;
+      box-shadow: 0 5px 7px rgba(0, 0, 0, 0.075) inset;
+      transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+          border-radius: 4px;
+      color: #555555;
+      display:block;
+          width:auto;
+          margin: 20px auto;
+      font-size: 14px;
+          text-align:center;
+      height: 60px;
+      line-height: 20px;
+      margin-bottom: 10px;
+      padding: 4px 6px;
+      vertical-align: middle;
+          text-decoration:none;
+  }
+  .but:hover, .but:focus {
+     border-color: rgba(82, 168, 236, 0.8);
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+     outline: 0 none;
+  }
+
+  #duplicateField{
+    color: darkblue;
+    font-size: 20px;
+    display:block;
+    margin-bottom: 0.25rem;
+  }
+
+  .txtField {
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #4e9bcf;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #9bb5e6,
+                 1px 2px 0px #9bb5e6,
+                 1px 3px 0px #9bb5e6,
+                 1px 4px 0px #9bb5e6,
+                 1px 5px 0px #9bb5e6,
+                 1px 6px 0px #9bb5e6,
+                 1px 10px 5px rgba(16, 16, 16, 0.5),
+                 1px 15px 10px rgba(16, 16, 16, 0.4),
+                 1px 20px 30px rgba(16, 16, 16, 0.3),
+                 1px 25px 50px rgba(16, 16, 16, 0.2);
+  }

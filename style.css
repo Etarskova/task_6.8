@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(211, 242, 245);
+}
+
+ul {
+    text-shadow: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(27, 37, 97)
+}
+
+a {
+    color: rgb(62, 86, 221);
+    text-decoration: none;
+}
